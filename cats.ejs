@@ -1,0 +1,12 @@
+<%- include('partials/head')%>
+
+<body>
+    <h1>ALL THE CATS</h1>
+    <ul>
+        <% for (let cat of cats) { %>
+        <li><%= cat %></li> <!-- if "cat" needs to rendered in the page need to use "="-->
+        <% } %>
+    </ul>
+</body>
+
+</html>
